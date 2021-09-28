@@ -1,8 +1,12 @@
 import type { NextPage } from 'next';
 
-const Button: NextPage = () => {
+interface Props{
+    title? : string;
+}
+
+const Button: NextPage<Props> = ({title}) => {
     return (
-        <button>Clickme</button>
+        <button>{title}</button>
     )
 }
 
