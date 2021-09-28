@@ -1,12 +1,13 @@
-import type { NextPage } from 'next'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
+import Main from './Main';
+import styles from '../styles/Portfolio.module.css';
 
-const Home: NextPage = () => {
+const Portfolio: NextPage = () => {
   return (
-    <div className={styles.wrapper}>
-      Hello world
+    <div className={styles.portfolio}>
+      <Main />
     </div>
   )
 }
 
-export default Home
+export default Portfolio
