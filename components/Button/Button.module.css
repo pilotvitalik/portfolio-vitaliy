@@ -1,0 +1,13 @@
+.main__btn{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    min-height: 30px;
+    height: auto;
+    padding: 0 20px;
+    color: #50c0ff;
+    font-size: 30px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}

@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import styles from './Button.module.css';
 
 interface Props{
     title? : string;
@@ -6,7 +7,7 @@ interface Props{
 
 const Button: NextPage<Props> = ({title}) => {
     return (
-        <button>{title}</button>
+        <button className={styles.main__btn}>{title}</button>
     )
 }
 

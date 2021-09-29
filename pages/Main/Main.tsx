@@ -1,28 +1,28 @@
 import type { NextPage } from 'next';
-import Button from '@/components/Button';
+import Button from '@/components/Button/Button';
 import styles from './Main.module.css'
 
 const Main: NextPage = () => {
     return (
         <div className={styles.main}>
-            <div>
+            <header>
                 <Button title='Войти'/>
-            </div>
-            <div>
+            </header>
+            <main>
                 <h3>Здравствуйте!</h3>
-                <div>
+                <div className={styles.welcome}>
                     <p>
-                        Вы находитесь на сайте портфолио. Здесь Вы можете ознакомиться с моими работами.
+                        Вы находитесь на сайте портфолио. <br/>Здесь Вы можете ознакомиться с моими работами.
                     </p>
                     <Button  title='Ознакомиться'/>
                 </div>
-                <div>
+                <div className={styles.welcome}>
                     <p>
                         Для более детального ознакомления с работами, необходимо авторизоваться.
                     </p>
                     <Button  title='Зарегистрироваться'/>
                 </div>
-            </div>
+            </main>
         </div>
     )
 }

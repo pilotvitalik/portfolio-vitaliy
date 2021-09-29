@@ -7,5 +7,30 @@
     width: 100%;
     height: auto;
     min-height: 100vh;
-    background: #00A3FF;
+    color: #fff;
+    background: #50c0ff;
+}
+.main main,
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.main main h3{
+    font-size: 36px;
+}
+.main main p{
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+}
+.main main .welcome:last-child p{
+    width: 50%;
 }
