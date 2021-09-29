@@ -6,8 +6,8 @@ const Main: NextPage = () => {
     return (
         <div className={styles.main}>
             <header>
-                <Button title='Войти'/>
-            </header>
+                <Button title='Войти' styleCss='main__btn'/>
+                </header>
             <main>
                 <section>
                     <h3>Здравствуйте!</h3>
@@ -17,13 +17,13 @@ const Main: NextPage = () => {
                     <p>
                         Здесь Вы можете ознакомиться с моими работами.
                     </p>
-                    <Button  title='Ознакомиться'/>
+                    <Button  title='Ознакомиться' styleCss='main__btn'/>
                 </div>
                 <div className={styles.welcome}>
                     <p>
                         Для более детального ознакомления с работами, необходимо авторизоваться.
                     </p>
-                    <Button  title='Зарегистрироваться'/>
+                    <Button  title='Зарегистрироваться' styleCss='main__btn'/>
                 </div>
             </main>
         </div>

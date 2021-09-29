@@ -1,14 +1,16 @@
-import type { NextPage } from 'next';
+import * as React from 'react';
 import styles from './Button.module.css';
 
-interface Props{
-    title? : string;
+type Props = {
+    title: string
+    styleCss: string
 }
 
-const Button: NextPage<Props> = ({title}) => {
+const Button: React.FC<Props> = ({ title, styleCss }) => {
     return (
-        <button className={styles.main__btn}>{title}</button>
+        <button className={styles[styleCss]}>{title}</button>
     )
 }
+
 
 export default Button

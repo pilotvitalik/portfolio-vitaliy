@@ -11,3 +11,8 @@
     border: 1px solid #fff;
     border-radius: 20px;
 }
+.main__btn:hover{
+    cursor: pointer;
+    color: #fff;
+    background: #50c0ff;
+}
