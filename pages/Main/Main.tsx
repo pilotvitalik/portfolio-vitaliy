@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Button from '@/components/Button/Button';
+import Modal from '@/components/Modal/Modal';
 import styles from './Main.module.css'
 
 const Main: NextPage = () => {
@@ -26,6 +27,7 @@ const Main: NextPage = () => {
                     <Button  title='Зарегистрироваться' styleCss='main__btn'/>
                 </div>
             </main>
+            <Modal />
         </div>
     )
 }

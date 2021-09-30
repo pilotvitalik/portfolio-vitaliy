@@ -1,4 +1,5 @@
-.main__btn{
+.main__btn,
+.modalInfo__btn{
     display: inline-block;
     position: relative;
     width: auto;
@@ -12,6 +13,14 @@
     border-radius: 20px;
 }
 .main__btn:hover{
+    cursor: pointer;
+    color: #fff;
+    background: #50c0ff;
+}
+.modalInfo__btn{
+    border-color: #50c0ff;
+}
+.modalInfo__btn:hover{
     cursor: pointer;
     color: #fff;
     background: #50c0ff;
