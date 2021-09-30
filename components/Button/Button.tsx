@@ -7,8 +7,12 @@ type Props = {
 }
 
 const Button: React.FC<Props> = ({ title, styleCss }) => {
+    function showInfoModal(e: any){
+        console.log(e)
+    }
+
     return (
-        <button className={styles[styleCss]}>{title}</button>
+        <button type='button' className={styles[styleCss]} onClick={showInfoModal}>{title}</button>
     )
 }
 
