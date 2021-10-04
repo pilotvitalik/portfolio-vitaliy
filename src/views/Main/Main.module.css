@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background: rgb(89,195,255);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
