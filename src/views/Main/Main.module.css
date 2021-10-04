@@ -17,3 +17,37 @@ header{
     height: auto;
     padding: 15px;
 }
+main,
+.greeting{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+main{
+    width: 95%;
+}
+.greeting h3,
+.greeting h4{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+.greeting h4{
+    font-size: 20px;
+}
+@media (min-width: 768px){
+    main{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .greeting{
+        width: 100%;
+    }
+}

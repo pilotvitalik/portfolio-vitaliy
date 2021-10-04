@@ -1,9 +1,13 @@
 import React from 'react';
 import Button from 'components/Button/Button';
+import styles from './TypeIntroduction.module.css';
 
 function TypeIntroduction(props){
     return(
-        <Button mainCSS="mainBtn" title={props.title}/>
+        <div className={styles.type}>
+            <h4>{props.type}</h4>
+            <Button mainCSS={['mainBtn', 'mainBtn__type']} title={props.button}/>
+        </div>
     )
 }
 
