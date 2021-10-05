@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'components/Button/Button';
+import Modal from '../Modal/Modal';
 import TypeIntroduction from './TypeIntroduction/TypeIntroduction';
 import {useSelector} from 'react-redux';
 
@@ -23,6 +24,7 @@ function Main(){
                 </div>
                 {listAuth}
             </main>
+            <Modal/>
         </div>
     )
 }
