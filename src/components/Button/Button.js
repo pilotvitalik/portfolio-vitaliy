@@ -16,7 +16,8 @@ function Button(props) {
     }
 
     return (
-        <button type="button" className={listCSSClasses}>{props.title}</button>
+        <button type="button" className={listCSSClasses}
+            onClick={props.func}>{props.title}</button>
     )
 }
 

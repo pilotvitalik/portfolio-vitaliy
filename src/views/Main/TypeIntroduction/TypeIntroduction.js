@@ -6,7 +6,7 @@ function TypeIntroduction(props){
     return(
         <div className={styles.type}>
             <h4>{props.type}</h4>
-            <Button mainCSS={['mainBtn', 'mainBtn__type']} title={props.button}/>
+            <Button mainCSS={['mainBtn', 'mainBtn__type']} title={props.button}  func={props.func}/>
         </div>
     )
 }

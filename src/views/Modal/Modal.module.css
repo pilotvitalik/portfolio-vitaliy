@@ -1,7 +1,5 @@
 .modal{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -42,4 +40,7 @@
     width: auto;
     height: auto;
     margin: 10px 0 0;
+}
+.showModal{
+    display: flex;
 }
