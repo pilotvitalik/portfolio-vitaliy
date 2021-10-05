@@ -10,6 +10,12 @@
     border-radius: 10em;
     background: #fff;
 }
+.mainBtn:hover{
+    cursor: pointer;
+    color: #fff;
+    border-color: #fff;
+    background: rgb(89,195,255);
+}
 @media (min-width: 768px){
     .mainBtn{
         margin-left: auto;

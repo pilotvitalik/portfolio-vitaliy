@@ -1,6 +1,7 @@
 .type{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     width: 100%;
@@ -11,6 +12,7 @@
     position: relative;
     width: auto;
     height: auto;
+    margin-bottom: 20px;
     text-align: center;
     color: #fff;
     font-size: 20px;
@@ -18,5 +20,7 @@
 @media (min-width: 768px) {
     .type {
         width: 45%;
+        max-width: 329px;
+        height: 145px;
     }
 }

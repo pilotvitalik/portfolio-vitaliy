@@ -19,7 +19,7 @@ function Main(){
             <main>
                 <div className={styles.greeting}>
                     <h3>Здравствуйте!</h3>
-                    <h4>Вы находитесь на сайте портфолио.</h4>
+                    <h4>Вы находитесь на сайте-портфолио.</h4>
                 </div>
                 {listAuth}
             </main>
