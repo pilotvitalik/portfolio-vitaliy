@@ -20,14 +20,26 @@
 }
 
 .modal__content {
-    width: 100%;
-    max-width: 500px;
-    padding: 50px;
-    background: #f9f9f9;
-    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
+    width: 90%;
+    max-width: 500px;
+    min-height: 100px;
+    padding: 10px;
     top: 30%;
+    background: #f9f9f9;
+    border-radius: 10px;
     -webkit-transform: translateY(-70%);
     -ms-transform: translateY(-70%);
     transform: translateY(-70%);
+}
+.tempClose{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 10px 0 0;
 }
