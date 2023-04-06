@@ -15,7 +15,6 @@ const initialState = {
 }
 
 export default function MainReducer(state = initialState, action){
-    console.log(action.type)
     switch(action.type){
         case 'main/showModal': {
             return {
