@@ -21,7 +21,7 @@ function TableContents() {
 
   const links = listProjects.map(project =>
     <li key={project.id.toString()}>
-      <Link to={`${process.env.REACT_APP_PROJECT_URL}/${project.link}/`}>{project.title}</Link>
+      <Link to={`${process.env.REACT_APP_PROJECT_URL}/${project.link}/`} target="_blank">{project.title}</Link>
     </li>
   )
 
