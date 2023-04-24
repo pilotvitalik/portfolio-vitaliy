@@ -4,8 +4,8 @@ function TableContents() {
   const listProjects = [
     {
       id: 1,
-      title: 'Jira',
-      link: 'jira'
+      title: 'Projects',
+      link: 'projects'
     },
     {
       id: 2,
