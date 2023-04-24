@@ -5,7 +5,7 @@ function TableContents() {
     {
       id: 1,
       title: 'Jira',
-      link: 'todo'
+      link: 'jira'
     },
     {
       id: 2,
