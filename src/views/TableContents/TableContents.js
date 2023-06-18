@@ -16,6 +16,11 @@ function TableContents() {
       id: 3,
       title: 'Telegram projects',
       link: 'telegram-projects'
+    },
+    {
+      id: 4,
+      title: 'Онлайн тестированиe',
+      link: 'online-testing'
     }
   ]
 
